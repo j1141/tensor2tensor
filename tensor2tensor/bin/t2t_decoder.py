@@ -207,8 +207,3 @@ def main(_):
       use_tpu=FLAGS.use_tpu)
 
   decode(estimator, hp, decode_hp)
-
-
-if __name__ == "__main__":
-  tf.logging.set_verbosity(tf.logging.INFO)
-  tf.app.run()
